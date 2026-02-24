@@ -479,7 +479,7 @@ function initDiary() {
 /** Открыть модал: заполнить заголовок, контент */
 function openModal(option) {
   const overlay = document.getElementById('calm-modal');
- // if (!overlay) return;
+ if (!overlay) return;
 
   overlay.querySelector('.modal-title').textContent = option.title;
 
