@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Медитации — ПсиПоддержка</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">🌿 ПсиПоддержка</a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="dashboard.html">Дневник</a></li>
+      <li><a href="tests.html">Тесты</a></li>
+      <li><a href="audio.html">Медитации</a></li>
+      <li><a id="logout-btn" href="#">Выйти</a></li>
+    </ul>
+    <button id="theme-toggle" title="Переключить тему">🌙</button>
+  </div>
+</nav>
+
+<div class="container">
+  <div style="margin-bottom:28px;" class="fade-in">
+    <h1>🎧 Медитации</h1>
+    <p>Короткие русскоязычные практики для снятия тревоги и перезагрузки.</p>
+  </div>
+
+  <!-- Видео рендерятся из массива MEDITATIONS в app.js -->
+  <div id="audio-grid"></div>
+</div>
+
+</body>
+</html>
